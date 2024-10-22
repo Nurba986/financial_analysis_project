@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+/financial_data/
+**/.ipynb_checkpoints/
+/.venv/
+/.dolt/
+/.idea/
+
+
+
