@@ -1,0 +1,4 @@
+pandas==1.3.3          # For data manipulation and analysis
+sqlalchemy==1.4.22     # For PostgreSQL connection and exporting data
+psycopg2==2.9.1        # PostgreSQL adapter for Python
+matplotlib==3.4.3      # For visualization
