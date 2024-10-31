@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Financial Analysis Project
 
 This project aims to analyze financial stability and growth potential of companies using Python and PostgreSQL.
@@ -19,3 +20,6 @@ To run the notebooks, install the dependencies:
 pip install -r requirements.txt
 
 Connect to PostgreSQL for analysis using VS Code with the PostgreSQL extension.
+=======
+# financial_analysis_project
+>>>>>>> 957d48f51e47ff4afa0e5cb928cf9294ca40adf3
