@@ -11,4 +11,4 @@ Usage
     To run the notebooks, first install the required dependencies:
         pip install -r requirements.txt
 
-For database analysis, connect to PostgreSQL using VS Code with the PostgreSQL extension.
+For database analysis, connect to PostgreSQL and use query tools.
