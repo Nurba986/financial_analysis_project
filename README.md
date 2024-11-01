@@ -1,5 +1,5 @@
 Financial Analysis Project
-This project aims to analyze the financial stability and growth potential of companies using Python and PostgreSQL.
+    This project aims to analyze the financial stability and growth potential of companies using Python and PostgreSQL.
 
 Project Structure
     notebooks/: Contains Jupyter notebooks for data cleaning and visualization.
