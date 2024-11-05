@@ -5,7 +5,7 @@ Project Structure
     notebooks/: Contains Jupyter notebooks for data cleaning and visualization.
     sql_scripts/: SQL queries for calculating financial metrics and performing analysis.
     docs/: Project documentation, including step-by-step plans.
-    data/: Contains raw data files (not pushed to GitHub due to large size).
+    data/: Contains raw, cleaned, final data files (not pushed to GitHub due to large size).
 
 Usage
     To run the notebooks, first install the required dependencies:

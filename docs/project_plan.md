@@ -24,21 +24,20 @@ Stock Investing Strategy: Low Risk, High Uncertainty
                 for bad company health = 1,
                 for good company health = 2.
             Debt-to-equity ratio for leverage assessment.
-            Add flag for:
-                unknown value = 0,
-                for bad company health = 1,
-                for good company health = 2.
+                Add flag with the same values above. (0,1,2,3)
             ROE ratio.
-            Add flag for:
-                unknown value = 0,
-                for bad company health = 1,
-                for good company health = 2.
+                Add flag with the same values above. (0,1,2,3)
             Cash flow to determine available cash for investments.
+        
         High uncertainty metrics
-            Analyst predictions for earnings per share (EPS) and sales for 2025.
-            Group companies by industries.
+            Calculate EPS growth using by analysts eps projection for 2025.
+            Calculate SALES growth using by analysts eps projection for 2025.
+                Add flag with the same values above.(0,1,2,3)
+        
+        Group companies by industries.
             Retrieve industries with over 15 % growth potential in sales and EPS.
             Compare companies growth with industry average.
+        
         Total    
             Find industry leaders or companies with over 15% growth prospects.
             Find industry leaders with debt to equity less 0.5.
