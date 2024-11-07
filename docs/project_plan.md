@@ -35,10 +35,11 @@ Stock Investing Strategy: Low Risk, High Uncertainty
                 Add flag with the same values above.(0,1,2,3)
         
         Group companies by industries.
-            Retrieve industries with over 15 % growth potential in sales and EPS.
-            Compare companies growth with industry average.
-        
-        Total    
+            Calculate average values by industry for ROE, DE_Ratio, Liq_Ratio.
+                Check distribution and outliers.
+                Use mean or median depends on the type of distribution.
+                    
+        Compare companies growth with industry average.    
             Find industry leaders or companies with over 15% growth prospects.
             Find industry leaders with debt to equity less 0.5.
             Find industry leaders with liquidity ratio over 1.

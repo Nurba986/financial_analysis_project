@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW vw_MetricsPerformance AS
+-- CREATE OR REPLACE VIEW vw_MetricsPerformance AS
 SELECT
     i_n.name,
     lrm.act_symbol,
@@ -24,6 +24,11 @@ FROM low_risk_metrics lrm
 JOIN ind_name i_n
     ON lrm.act_symbol = i_n.act_symbol
 JOIN growth_metrics g_m
-    ON i_n.act_symbol = g_m.act_symbol;
+    ON i_n.act_symbol = g_m.act_symbol
+WHERE flag_de_ratio IN (1,2,3) 
+    AND flag_liq_ratio IN (1,2,3)
+    AND flag_roe_ratio IN (1,2,3)
+    AND flag_sales_growth IN (1,2,3)
+ORDER BY sector ASC, industry ASC;
 
 
