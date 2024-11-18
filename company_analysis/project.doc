@@ -1,0 +1,16 @@
+Key Points in Damodaran’s Approach:
+    Realistic Assumptions: Damodaran emphasizes using reasonable growth rates, often tied to reinvestment and ROC.
+    Terminal Growth Rate: Conservative, aligned with long-term economic growth.
+    WACC as Discount Rate: Ensures all capital costs are considered, especially for companies with both debt and equity financing.
+    Sensitivity Analysis: Test the model with different growth rates, WACC, and terminal growth rates to see how the intrinsic value changes with assumptions.
+
+
+Steps:
+    Calculate EBIT: Revenue multiplied by EBIT margin.
+    Calculate NOPAT: EBIT after taxes.
+    Calculate FCF: NOPAT plus depreciation, minus CapEx and change in NWC.
+    Calculate Terminal Value: Using the Gordon Growth Model.
+    Discount FCFs and Terminal Value: To present value using WACC.
+    Calculate Enterprise Value: Sum of discounted FCFs and terminal value.
+    Calculate Equity Value: Enterprise value minus net debt.
+    Calculate Intrinsic Value per Share: Equity value divided by shares outstanding
